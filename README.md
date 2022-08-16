@@ -1,6 +1,6 @@
 # renew-webdriverio-appium-framework
 
-## Setting up Windows
+### Setting up Windows
 
 1. Download & Install node js
 2. Install Java & set up the JAVA on the environment variable
