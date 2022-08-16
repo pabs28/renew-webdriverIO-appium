@@ -24,7 +24,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/android-native.spec*.js'
+        './test/specs/android/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -57,8 +57,8 @@ exports.config = {
         "appium:platformVersion": "10.0",
         "appium:deviceName": "Pixel 3 API 29",
         "appium:automationName": "UIAutomator2",
-        "appium:app": path.join(process.cwd(), "app\\android\\ApiDemos-debug.apk")
-     
+        "appium:app": path.join(process.cwd(), "app\\android\\ColorNote.apk"),
+        "appium:autoGrantPermissions": true
     }],
     //
     // ===================
